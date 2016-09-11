@@ -1,6 +1,12 @@
 var title = document.getElementById("ctitle").textContent;
 var comicContainer = document.getElementById("comic");
 var comic = comicContainer.firstElementChild;
+
+if (comic.nodeName.toLowerCase() !== "img") {
+    // Sometimes the comic is wrapped in a anchor tag.
+    comic = comic.firstElementChild;
+}
+
 var altText = comic.title;
 
 var titleHolder = document.createElement("div");
