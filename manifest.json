@@ -6,8 +6,8 @@
 	"description": "Displays the alt text below the XKCD comic just like in the mobile version of XKCD.com. Click (alt-text) to display the text.",
 
 	"icons": {
-		"48": "icons/alt-text-48.png",
-		"96": "icons/alt-text-96.png"
+		"48": "icons/icon_48.png",
+		"96": "icons/icon_96.png"
 	},
 
 	"content_scripts": [
