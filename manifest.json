@@ -1,9 +1,9 @@
 {
 	"manifest_version": 2,
 	"name": "XKCD Alt Text Display",
-	"version": "1.1",
+	"version": "2.0",
 
-	"description": "Displays the alt text below the XKCD comic just like in the mobile version of XKCD.com. Click (alt-text) to display the text.",
+	"description": "Displays the alt text below the XKCD comic.",
 
 	"icons": {
 		"48": "icons/icon_48.png",
