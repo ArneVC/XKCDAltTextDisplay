@@ -17,5 +17,19 @@ p.style.border = "1px solid black";
 p.style.padding = "2px 10px";
 p.style.background = "#FFF9BD";
 p.style.fontVariant = "normal";
+p.style.fontFamily = "XKCDFont, sans-serif";
+
+var style = document.createElement("style");
+style.appendChild(
+  document.createTextNode(`
+  @font-face {
+    font-family: 'XKCDFont';
+    src: url(${browser.runtime.getURL(
+      "fonts/xkcd-Regular.otf"
+    )}) format('opentype');
+  }
+`)
+);
+document.head.appendChild(style);
 
 comicContainer.parentNode.insertBefore(p, comicContainer.nextSibling);
