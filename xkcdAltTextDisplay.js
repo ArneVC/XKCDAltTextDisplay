@@ -15,7 +15,8 @@ p.textContent = altText;
 p.style.display = "block";
 p.style.border = "1px solid black";
 p.style.padding = "2px 10px";
-p.style.background = "#FFF9BD";
+p.style.marginLeft = "10px";
+p.style.marginRight = "10px";
 p.style.fontVariant = "normal";
 p.style.fontFamily = "XKCDFont, sans-serif";
 
